@@ -21,6 +21,5 @@ while True:
 		time.sleep(0.5)
         GPIO.output(25,GPIO.HIGH)
         call('clear')
-	print('clear')
         time.sleep(pauseTime)
 	playingState=True
